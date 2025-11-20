@@ -1,7 +1,7 @@
 # RedSecutor
 A C# learning project focused on Windows Forms, process communication, and external module interaction.
 
-![Redsecutor_Banner](https://raw.githubusercontent.com/Simit6155/Multi-Tool/main/Screenshot%202025-09-02%20145817.png)
+![Redsecutor_Banner](https://github.com/Simit6155/RedSecutor/blob/main/Redsecutor_Banner.png)
 
 ## 📌 About
 RedSecutor is an **educational project** created to explore:
