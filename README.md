@@ -1,5 +1,5 @@
 # 🔥 **RedSecutor**
-*A C# learning project focused on Windows Forms, process communication, and external module interaction.*
+*A C# Lua Code Executor/Injector internal Windows Forms app*
 
 <p align="center">
   <img src="https://github.com/Simit6155/RedSecutor/blob/main/Redsecutor_Banner.png" width="85%">
