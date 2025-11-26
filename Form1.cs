@@ -43,7 +43,7 @@ namespace RedSecuterA
                             int pid = Convert.ToInt32(client[0]);
                             int state = Convert.ToInt32(client[3]);
 
-                            if (state == 3) // Ready state
+                            if (state == 3)
                             {
                                 pids.Add(pid);
                             }
@@ -102,6 +102,37 @@ namespace RedSecuterA
         {
             string script = richTextBox1.Text;
             ExecuteScriptOnClients(script);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ExecuteScriptOnClients("loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ExecuteScriptOnClients("loadstring(game:HttpGet('https://raw.githubusercontent.com/samuraa1/Solara-Hub/refs/heads/main/SH.lua'))()");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ExecuteScriptOnClients("loadstring(game:HttpGet(\"https://soluna-script.vercel.app/arsenal.lua\",true))()");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ExecuteScriptOnClients("loadstring(game: HttpGet(https://raw.githubusercontent.com/peyton2465/Dex/master/out.lua))()");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string smallscript = richTextBox2.Text;
+            ExecuteScriptOnClients(smallscript);
         }
     }
 }
